@@ -4,7 +4,7 @@ from django.shortcuts import render
 from appTwo.forms import NewUserForm
 
 def index(request):
-    return render(request,'appTwo/index.html')
+    return render(request,'templates/appTwo/index.html')
 
 def users(request):
 
